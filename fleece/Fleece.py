@@ -20,3 +20,4 @@ class Fleece(QtGui.QMainWindow):
 		self.main_widget = QtGui.QWidget()
 		self.main_widget.setLayout(self.layout)
 		self.setCentralWidget(self.main_widget)
+		self.show()

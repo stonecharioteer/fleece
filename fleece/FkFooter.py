@@ -4,7 +4,6 @@ class FkFooter(QtGui.QWidget):
 	def __init__(self):
 		super(FkFooter,self).__init__()
 		self.createUI()
-		self.mapEvents()
 
 	def createUI(self):
 		self.share_now_button = QtGui.QWidget()
